@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     let hamburguesa = coleccionDeHamburguesa()
     let color = colores()
     
-    @IBOutlet weak var flag: UIImageView!
-    @IBOutlet weak var hamburger: UIImageView!
+    //@IBOutlet weak var flag: UIImageView!
+    //@IBOutlet weak var hamburger: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,10 +39,10 @@ class ViewController: UIViewController {
         labelHamburguesa.text = hamburguesa.obtenHamburguesa()
         
         view.backgroundColor = colorAleatorio
-        flag.image = UIImage(named: "flags/\(country).png")
+        //flag.image = UIImage(named: "flags/\(country).png")
         
-        let ham = Int(arc4random()) % 4
-        hamburger.image = UIImage(named: "hamburger/\(ham).png")
+        //let ham = Int(arc4random()) % 4
+        //hamburger.image = UIImage(named: "hamburger/\(ham).png")
         
     }
 
