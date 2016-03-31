@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     let hamburguesa = coleccionDeHamburguesa()
     let color = colores()
     
-    //@IBOutlet weak var flag: UIImageView!
-    //@IBOutlet weak var hamburger: UIImageView!
+    @IBOutlet weak var flag: UIImageView!
+    @IBOutlet weak var hamburger: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
